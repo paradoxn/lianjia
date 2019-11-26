@@ -1,5 +1,6 @@
 # lianjia
 各文件介绍:
+
 1.get_lianjia.py  该脚本为获取深圳链家所有区域(南山/罗湖等)的二手房网址.可得到szlianjia.txt文件.
 
 2.lianjia_simple.py 该脚本是获取szlianjia.txt里所有网址的房屋详细信息.并打印出来
