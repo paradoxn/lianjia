@@ -64,7 +64,7 @@ def get_info(detail_url): #detail_url指每个房子的详情链接
 
     conn = pymysql.connect(
         host="localhost",
-        user="root", password="Fs2215152@@",
+        user="root", password="xxxx",
         database="test",
         charset="utf8")
     # 得到一个可以执行SQL语句的光标对象
