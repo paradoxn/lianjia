@@ -8,9 +8,9 @@ import pymongo
 import random
 
 def get_proxies():  ##获取数据库的ip地址
-    client = pymongo.MongoClient(host='34.92.209.10', port=27017)
+    client = pymongo.MongoClient(host='xxxx', port=27017)
     db = client.paradata
-    db.authenticate('para', '2415')
+    db.authenticate('xxxx', 'xxxx')
     LL = []
     collection=db.ip  #选择数据库
     list = collection.find()
